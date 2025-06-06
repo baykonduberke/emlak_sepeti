@@ -1,0 +1,70 @@
+<div id="<%= dom_id property %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Title:</strong>
+    <%= property.title %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= property.description %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Price:</strong>
+    <%= property.price %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Property type:</strong>
+    <%= property.property_type %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Address:</strong>
+    <%= property.address %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">City:</strong>
+    <%= property.city %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">District:</strong>
+    <%= property.district %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Square meters:</strong>
+    <%= property.square_meters %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Room count:</strong>
+    <%= property.room_count %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Bathroom count:</strong>
+    <%= property.bathroom_count %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Building age:</strong>
+    <%= property.building_age %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Floor:</strong>
+    <%= property.floor %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Total floors:</strong>
+    <%= property.total_floors %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Furnished:</strong>
+    <%= property.furnished? ? "Yes" : "No" %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Balcony:</strong>
+    <%= property.balcony? ? "Yes" : "No" %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Parking:</strong>
+    <%= property.parking? ? "Yes" : "No" %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">User:</strong>
+    <%= property.user_id %>
+  </div>
+</div>
